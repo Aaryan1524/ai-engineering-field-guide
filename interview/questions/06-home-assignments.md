@@ -109,8 +109,9 @@ Many assignments include explicit evaluation criteria. Patterns across repos:
 
 ## How to Prepare
 
-From observing 50+ AI engineer interviews: "most engineers put way too little effort into take-homes." The best submissions share these traits: [^fonzi-ai] [^interviewnode] [^reddit-yc-assignments]
+The best submissions share these traits: [^fonzi-ai] [^interviewnode] [^reddit-yc-assignments]
 
+- Ask clarifying questions before starting. Double your time estimate. [^devto-aidi]
 - Start with evaluation - build an eval harness before writing the main logic. YC startups report this as the top signal: "Red flag if candidate doesn't start with evals" [^reddit-yc-assignments]
 - Document design decisions and trade-offs - why you chose this approach over alternatives
 - Include a Loom/video walkthrough of your submission [^fonzi-ai]
@@ -120,16 +121,13 @@ From observing 50+ AI engineer interviews: "most engineers put way too little ef
 - Connect technical metrics to business outcomes [^interviewnode]
 - Prepare for the defence round - practice explaining your architecture decisions, trade-offs, and what you'd do differently with more time
 
-Ask clarifying questions before starting. Double your time estimate. [^devto-aidi]
-
 Common mistakes:
 
+- Not asking clarifying questions before starting
 - Putting too little effort in - "most engineers put way too little effort into take-homes" [^fonzi-ai]
 - Rushing without documenting design decisions and trade-offs
 - Over-engineering beyond what was asked without justification
 - Ignoring evaluation and testing of AI outputs - this is the single biggest differentiator [^reddit-yc-assignments]
-- Treating the LLM as a black box without discussing failure modes
-- Not asking clarifying questions before starting
 - Not preparing for the walkthrough/defence round - the follow-up interview is often more important than the code itself
 
 
